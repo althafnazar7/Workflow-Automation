@@ -18,7 +18,7 @@ import json
 
 MINUTES_TO_WAIT = 6
 EMAIL_SENDER = "ae19b101@smail.iitm.ac.in"
-EMAIL_PASSWORD = "uyckhcvmznxjiszr"
+EMAIL_PASSWORD = "<passcode>"
 
 with open("course_list.json") as json_file:
     JSON_CONTENT = json.load(json_file)
@@ -73,7 +73,7 @@ def send_message(courses):
             print()
 
 
-login("ae19b101", "?nU3E%&t")
+login("ae19b101", "<password>")
 time.sleep(2)
 while True:
     try:
